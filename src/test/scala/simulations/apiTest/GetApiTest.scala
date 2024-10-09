@@ -11,7 +11,7 @@ class GetApiTest extends Simulation {
   // SCENARIO
   val scn: ScenarioBuilder = scenario("Get Single user Scenario")
     .exec(
-      http("GET API for fetching sngle user data")
+      http("GET API for fetching single user data")
         .get("api/users/2")
     )
 
