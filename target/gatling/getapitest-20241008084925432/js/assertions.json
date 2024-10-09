@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.GetApiTest",
+  "simulationId": "getapitest",
+  "start": 1728377365432,
+  "description": "",
+  "scenarios": ["Get Single user Scenario"],
+  "assertions": [
+
+  ]
+}

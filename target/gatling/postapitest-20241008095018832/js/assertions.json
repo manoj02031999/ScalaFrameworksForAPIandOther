@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.apiTest.PostApiTest",
+  "simulationId": "postapitest",
+  "start": 1728381018832,
+  "description": "1",
+  "scenarios": ["Create User scenario"],
+  "assertions": [
+
+  ]
+}
