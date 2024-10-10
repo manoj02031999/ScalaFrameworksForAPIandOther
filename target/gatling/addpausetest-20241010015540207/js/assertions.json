@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.basics.AddPauseTest",
+  "simulationId": "addpausetest",
+  "start": 1728525340207,
+  "description": "5",
+  "scenarios": ["Create User scenario", "Get Single user Scenario", "Update User Scenario", "Delete User Scenario"],
+  "assertions": [
+
+  ]
+}

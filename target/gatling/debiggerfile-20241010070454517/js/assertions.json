@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.basics.DebiggerFile",
+  "simulationId": "debiggerfile",
+  "start": 1728543894517,
+  "description": "6",
+  "scenarios": ["Update User Scenario"],
+  "assertions": [
+
+  ]
+}
