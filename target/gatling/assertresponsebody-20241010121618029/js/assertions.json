@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.basics.AssertResponseBody",
+  "simulationId": "assertresponsebody",
+  "start": 1728562578029,
+  "description": "",
+  "scenarios": ["Create User scenario", "Get Single user Scenario", "Update User Scenario", "Delete User Scenario"],
+  "assertions": [
+
+  ]
+}
