@@ -1,0 +1,41 @@
+RUN	simulations.basics.ExtractResponseBody	extractresponsebody	1728896033106	 	3.6.1
+USER	Get Single user Scenario	START	1728896033919
+USER	Get Single user Scenario	START	1728896033919
+USER	Get Single user Scenario	START	1728896033919
+USER	Get Single user Scenario	START	1728896033919
+USER	Get Single user Scenario	START	1728896033919
+USER	Get Single user Scenario	START	1728896033919
+USER	Get Single user Scenario	START	1728896033919
+USER	Get Single user Scenario	START	1728896033919
+USER	Get Single user Scenario	START	1728896033919
+USER	Get Single user Scenario	START	1728896033919
+REQUEST		GET API for fetching single user data	1728896033963	1728896034101	OK	 
+REQUEST		GET API for fetching single user data	1728896033963	1728896034123	OK	 
+REQUEST		GET API for fetching single user data	1728896033962	1728896034122	OK	 
+REQUEST		GET API for fetching single user data	1728896033962	1728896034122	OK	 
+REQUEST		GET API for fetching single user data	1728896033963	1728896034122	OK	 
+REQUEST		GET API for fetching single user data	1728896033963	1728896034101	OK	 
+REQUEST		GET API for fetching single user data	1728896033963	1728896034122	OK	 
+REQUEST		GET API for fetching single user data	1728896033962	1728896034081	OK	 
+REQUEST		GET API for fetching single user data	1728896033963	1728896034107	OK	 
+REQUEST		GET API for fetching single user data	1728896033963	1728896034107	OK	 
+REQUEST		GET API for fetching single user data	1728896036155	1728896036183	KO	jsonPath($.data.id).find.is(#{userId}), but actually found nothing
+REQUEST		GET API for fetching single user data	1728896036156	1728896036192	KO	jsonPath($.data.id).find.is(#{userId}), but actually found nothing
+REQUEST		GET API for fetching single user data	1728896036155	1728896036183	KO	jsonPath($.data.id).find.is(#{userId}), but actually found nothing
+USER	Get Single user Scenario	END	1728896036198
+USER	Get Single user Scenario	END	1728896036198
+USER	Get Single user Scenario	END	1728896036198
+REQUEST		GET API for fetching single user data	1728896036155	1728896036202	KO	jsonPath($.data.id).find.is(#{userId}), but actually found nothing
+REQUEST		GET API for fetching single user data	1728896036156	1728896036202	KO	jsonPath($.data.id).find.is(#{userId}), but actually found nothing
+REQUEST		GET API for fetching single user data	1728896036156	1728896036202	KO	jsonPath($.data.id).find.is(#{userId}), but actually found nothing
+REQUEST		GET API for fetching single user data	1728896036155	1728896036203	KO	jsonPath($.data.id).find.is(#{userId}), but actually found nothing
+REQUEST		GET API for fetching single user data	1728896036156	1728896036202	KO	jsonPath($.data.id).find.is(#{userId}), but actually found nothing
+REQUEST		GET API for fetching single user data	1728896036157	1728896036202	KO	jsonPath($.data.id).find.is(#{userId}), but actually found nothing
+USER	Get Single user Scenario	END	1728896036204
+REQUEST		GET API for fetching single user data	1728896036157	1728896036202	KO	jsonPath($.data.id).find.is(#{userId}), but actually found nothing
+USER	Get Single user Scenario	END	1728896036204
+USER	Get Single user Scenario	END	1728896036204
+USER	Get Single user Scenario	END	1728896036204
+USER	Get Single user Scenario	END	1728896036204
+USER	Get Single user Scenario	END	1728896036205
+USER	Get Single user Scenario	END	1728896036205
