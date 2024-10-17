@@ -1,0 +1,41 @@
+RUN	simulations.basics.ClearCacheAndCookieTest	clearcacheandcookietest	1728907251500	 	3.6.1
+USER	Get Single user Scenario	START	1728907252402
+USER	Get Single user Scenario	START	1728907252402
+USER	Get Single user Scenario	START	1728907252402
+USER	Get Single user Scenario	START	1728907252402
+USER	Get Single user Scenario	START	1728907252402
+USER	Get Single user Scenario	START	1728907252402
+USER	Get Single user Scenario	START	1728907252402
+USER	Get Single user Scenario	START	1728907252402
+USER	Get Single user Scenario	START	1728907252402
+USER	Get Single user Scenario	START	1728907252401
+REQUEST		GET API for fetching single user data	1728907252462	1728907252651	OK	 
+REQUEST		GET API for fetching single user data	1728907252462	1728907252612	OK	 
+REQUEST		GET API for fetching single user data	1728907252462	1728907252640	OK	 
+REQUEST		GET API for fetching single user data	1728907252462	1728907252651	OK	 
+REQUEST		GET API for fetching single user data	1728907252463	1728907252606	OK	 
+REQUEST		GET API for fetching single user data	1728907252463	1728907252604	OK	 
+REQUEST		GET API for fetching single user data	1728907252462	1728907252625	OK	 
+REQUEST		GET API for fetching single user data	1728907252462	1728907252684	OK	 
+REQUEST		GET API for fetching single user data	1728907252462	1728907252956	OK	 
+REQUEST		GET API for fetching single user data	1728907252462	1728907252961	OK	 
+REQUEST		GET API for fetching single user data	1728907254681	1728907255153	OK	 
+USER	Get Single user Scenario	END	1728907255158
+REQUEST		GET API for fetching single user data	1728907254681	1728907255159	OK	 
+USER	Get Single user Scenario	END	1728907255160
+REQUEST		GET API for fetching single user data	1728907254965	1728907255286	OK	 
+USER	Get Single user Scenario	END	1728907255288
+REQUEST		GET API for fetching single user data	1728907254681	1728907255380	OK	 
+USER	Get Single user Scenario	END	1728907255383
+REQUEST		GET API for fetching single user data	1728907254681	1728907255401	OK	 
+USER	Get Single user Scenario	END	1728907255402
+REQUEST		GET API for fetching single user data	1728907254681	1728907255458	OK	 
+USER	Get Single user Scenario	END	1728907255459
+REQUEST		GET API for fetching single user data	1728907254681	1728907255626	OK	 
+REQUEST		GET API for fetching single user data	1728907254689	1728907255626	OK	 
+USER	Get Single user Scenario	END	1728907255627
+USER	Get Single user Scenario	END	1728907255627
+REQUEST		GET API for fetching single user data	1728907254681	1728907256946	OK	 
+USER	Get Single user Scenario	END	1728907256949
+REQUEST		GET API for fetching single user data	1728907254980	1728907257045	OK	 
+USER	Get Single user Scenario	END	1728907257047
