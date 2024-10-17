@@ -1,0 +1,31 @@
+RUN	simulations.advanced.LoggingMechanismTest	loggingmechanismtest	1729140197646	 	3.6.1
+USER	Get Single user Scenario	START	1729140198388
+USER	Get Single user Scenario	START	1729140198388
+USER	Get Single user Scenario	START	1729140198388
+USER	Get Single user Scenario	START	1729140198388
+USER	Get Single user Scenario	START	1729140198388
+USER	Get Single user Scenario	START	1729140198388
+USER	Get Single user Scenario	START	1729140198388
+USER	Get Single user Scenario	START	1729140198388
+USER	Get Single user Scenario	START	1729140198388
+USER	Get Single user Scenario	START	1729140198388
+REQUEST		GET API for fetching single user data	1729140198430	1729140198569	OK	 
+REQUEST		GET API for fetching single user data	1729140198430	1729140198569	OK	 
+REQUEST		GET API for fetching single user data	1729140198430	1729140198556	OK	 
+REQUEST		GET API for fetching single user data	1729140198429	1729140198585	OK	 
+REQUEST		GET API for fetching single user data	1729140198429	1729140198569	OK	 
+REQUEST		GET API for fetching single user data	1729140198429	1729140198549	OK	 
+REQUEST		GET API for fetching single user data	1729140198429	1729140198569	OK	 
+REQUEST		GET API for fetching single user data	1729140198429	1729140198552	OK	 
+REQUEST		GET API for fetching single user data	1729140198429	1729140198549	OK	 
+REQUEST		GET API for fetching single user data	1729140198430	1729140198552	OK	 
+USER	Get Single user Scenario	END	1729140198659
+USER	Get Single user Scenario	END	1729140198659
+USER	Get Single user Scenario	END	1729140198659
+USER	Get Single user Scenario	END	1729140198659
+USER	Get Single user Scenario	END	1729140198659
+USER	Get Single user Scenario	END	1729140198659
+USER	Get Single user Scenario	END	1729140198659
+USER	Get Single user Scenario	END	1729140198659
+USER	Get Single user Scenario	END	1729140198660
+USER	Get Single user Scenario	END	1729140198659

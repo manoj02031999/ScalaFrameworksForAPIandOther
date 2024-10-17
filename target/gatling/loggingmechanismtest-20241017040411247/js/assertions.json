@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.advanced.LoggingMechanismTest",
+  "simulationId": "loggingmechanismtest",
+  "start": 1729137851247,
+  "description": "",
+  "scenarios": ["Get Single user Scenario"],
+  "assertions": [
+
+  ]
+}
