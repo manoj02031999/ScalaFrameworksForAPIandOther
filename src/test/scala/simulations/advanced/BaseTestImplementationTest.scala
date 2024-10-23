@@ -9,16 +9,18 @@ import simulations.utils.BaseTest
 
 class BaseTestImplementationTest extends Simulation with BaseTest{
   val httpProtocol: HttpProtocolBuilder = http.baseUrl("https://reqres.in/")
-  
+
 
    val scn1: ScenarioBuilder = scenario("scenario 1")
-    .exec(getSingleUserdata())
-    .exec(createUser())
+    .exec(getSingleUserdata(2,200))
+     .pause(1)
+     .exec(getSingleUserdata(3,200))
+    .exec(createUser("data/requestBodyData/createUser.json",201))
 
   val scn2: ScenarioBuilder = scenario("scenario 2")
-    .exec(getSingleUserdata())
-    .exec(updateUser())
-    .exec(deleteUser())
+    .exec(updateUser(2,"data/requestBodyData/updateUser.json",200))
+    .exec(updateUser(3,"data/requestBodyData/updateUser.json",200))
+    .exec(deleteUser(2,204))
 
   setUp(
     scn1.inject(atOnceUsers(1)),
