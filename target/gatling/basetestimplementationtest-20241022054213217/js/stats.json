@@ -1,0 +1,395 @@
+{
+  "type": "GROUP",
+"name": "Global Information",
+"path": "",
+"pathFormatted": "group_missing-name-b06d1",
+"stats": {
+    "name": "Global Information",
+    "numberOfRequests": {
+        "total": 5,
+        "ok": 5,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 100,
+        "ok": 100,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 351,
+        "ok": 351,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 245,
+        "ok": 245,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 118,
+        "ok": 118,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 335,
+        "ok": 335,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 338,
+        "ok": 338,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 348,
+        "ok": 348,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 350,
+        "ok": 350,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 5,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 5.0,
+        "ok": 5.0,
+        "ko": 0
+    }
+},
+"contents": {
+"req_get-api-for-fet-c8f2f": {
+        "type": "REQUEST",
+        "name": "GET API for fetching single user data",
+"path": "GET API for fetching single user data",
+"pathFormatted": "req_get-api-for-fet-c8f2f",
+"stats": {
+    "name": "GET API for fetching single user data",
+    "numberOfRequests": {
+        "total": 2,
+        "ok": 2,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 100,
+        "ok": 100,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 100,
+        "ok": 100,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 100,
+        "ok": 100,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 100,
+        "ok": 100,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 100,
+        "ok": 100,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 100,
+        "ok": 100,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 100,
+        "ok": 100,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 2,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 2.0,
+        "ok": 2.0,
+        "ko": 0
+    }
+}
+    },"req_put-api-update--bc65b": {
+        "type": "REQUEST",
+        "name": "Put api update user",
+"path": "Put api update user",
+"pathFormatted": "req_put-api-update--bc65b",
+"stats": {
+    "name": "Put api update user",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 338,
+        "ok": 338,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 338,
+        "ok": 338,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 338,
+        "ok": 338,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 338,
+        "ok": 338,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 338,
+        "ok": 338,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 338,
+        "ok": 338,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 338,
+        "ok": 338,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 1.0,
+        "ok": 1.0,
+        "ko": 0
+    }
+}
+    },"req_post-api-to-cre-ea58a": {
+        "type": "REQUEST",
+        "name": "Post Api to Create api",
+"path": "Post Api to Create api",
+"pathFormatted": "req_post-api-to-cre-ea58a",
+"stats": {
+    "name": "Post Api to Create api",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 335,
+        "ok": 335,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 335,
+        "ok": 335,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 335,
+        "ok": 335,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 335,
+        "ok": 335,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 335,
+        "ok": 335,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 335,
+        "ok": 335,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 335,
+        "ok": 335,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 1.0,
+        "ok": 1.0,
+        "ko": 0
+    }
+}
+    },"req_delete-api-dele-aca19": {
+        "type": "REQUEST",
+        "name": "Delete Api Delete user",
+"path": "Delete Api Delete user",
+"pathFormatted": "req_delete-api-dele-aca19",
+"stats": {
+    "name": "Delete Api Delete user",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 351,
+        "ok": 351,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 351,
+        "ok": 351,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 351,
+        "ok": 351,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 351,
+        "ok": 351,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 351,
+        "ok": 351,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 351,
+        "ok": 351,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 351,
+        "ok": 351,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 1.0,
+        "ok": 1.0,
+        "ko": 0
+    }
+}
+    }
+}
+
+}
