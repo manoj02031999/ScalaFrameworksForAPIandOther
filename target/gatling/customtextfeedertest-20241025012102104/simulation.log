@@ -1,0 +1,6 @@
+RUN	simulations.feeders.customTextFeederTest	customtextfeedertest	1729819262104	 	3.6.1
+USER	SSV Feeder Test	START	1729819262932
+REQUEST		get single student details for 0 of the user name <no phase>	1729819262981	1729819263325	OK	 
+REQUEST		get single student details for 0 of the user name <no phase>	1729819263383	1729819263595	OK	 
+REQUEST		get single student details for 0 of the user name <no phase>	1729819263598	1729819263805	OK	 
+USER	SSV Feeder Test	END	1729819263810

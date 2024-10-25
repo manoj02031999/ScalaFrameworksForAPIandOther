@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.feeders.customTextFeederTest",
+  "simulationId": "customtextfeedertest",
+  "start": 1729819262104,
+  "description": "",
+  "scenarios": ["SSV Feeder Test"],
+  "assertions": [
+
+  ]
+}
