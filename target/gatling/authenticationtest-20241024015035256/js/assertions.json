@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.advanced.AuthenticationTest",
+  "simulationId": "authenticationtest",
+  "start": 1729734635256,
+  "description": "",
+  "scenarios": ["Get all students details"],
+  "assertions": [
+
+  ]
+}

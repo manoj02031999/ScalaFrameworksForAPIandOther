@@ -1,0 +1,5 @@
+RUN	simulations.advanced.AuthenticationTest	authenticationtest	1729734635256	 	3.6.1
+USER	Get all students details	START	1729734636069
+REQUEST		get all students details	1729734636098	1729734636479	OK	 
+REQUEST		get single student details	1729734638564	1729734638728	OK	 
+USER	Get all students details	END	1729734638733

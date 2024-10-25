@@ -1,0 +1,5 @@
+RUN	simulations.advanced.AuthenticationTest	authenticationtest	1729733911136	 	3.6.1
+USER	Get all students details	START	1729733911830
+REQUEST		get all students details	1729733911856	1729733912090	OK	 
+REQUEST		get single student details	1729733914165	1729733914443	KO	jsonPath($.id).find.is(#{studentId}), but actually found nothing
+USER	Get all students details	END	1729733914450
