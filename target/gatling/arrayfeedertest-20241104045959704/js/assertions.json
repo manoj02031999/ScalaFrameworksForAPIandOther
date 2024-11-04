@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.feeders.arrayFeederTest",
+  "simulationId": "arrayfeedertest",
+  "start": 1730696399704,
+  "description": "",
+  "scenarios": ["CSV Feeder Test"],
+  "assertions": [
+
+  ]
+}

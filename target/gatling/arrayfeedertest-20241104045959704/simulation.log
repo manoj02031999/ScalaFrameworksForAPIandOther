@@ -1,0 +1,6 @@
+RUN	simulations.feeders.arrayFeederTest	arrayfeedertest	1730696399704	 	3.6.1
+USER	CSV Feeder Test	START	1730696402179
+REQUEST		get single student details for 0 of the user name <no phase>	1730696402214	1730696403336	KO	status.find.is(200), but actually found 404
+REQUEST		get single student details for 0 of the user name <no phase>	1730696403388	1730696404184	KO	status.find.is(200), but actually found 404
+REQUEST		get single student details for 0 of the user name <no phase>	1730696404187	1730696404588	KO	status.find.is(200), but actually found 404
+USER	CSV Feeder Test	END	1730696404592
