@@ -1,0 +1,6 @@
+RUN	simulations.feeders.indexSequenceFeederTest	indexsequencefeedertest	1730697237108	 	3.6.1
+USER	Index Sequence Feeder Test	START	1730697238372
+REQUEST		get single student details for 0 of the user name <no phase>	1730697238401	1730697240818	OK	 
+REQUEST		get single student details for 0 of the user name <no phase>	1730697240869	1730697241667	OK	 
+REQUEST		get single student details for 0 of the user name <no phase>	1730697241671	1730697242037	OK	 
+USER	Index Sequence Feeder Test	END	1730697242042
