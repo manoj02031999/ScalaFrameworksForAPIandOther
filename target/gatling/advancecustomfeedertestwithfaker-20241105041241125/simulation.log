@@ -1,0 +1,16 @@
+RUN	simulations.feeders.AdvanceCustomFeederTestWithFaker	advancecustomfeedertestwithfaker	1730779961125	 	3.6.1
+USER	Advanced custom feeder test	START	1730779962132
+USER	Advanced custom feeder test	START	1730779962132
+USER	Advanced custom feeder test	START	1730779962132
+USER	Advanced custom feeder test	START	1730779962132
+USER	Advanced custom feeder test	START	1730779962132
+REQUEST		Post Api to create student	1730779962302	1730779963318	OK	 
+REQUEST		Post Api to create student	1730779962302	1730779963318	OK	 
+USER	Advanced custom feeder test	END	1730779963348
+USER	Advanced custom feeder test	END	1730779963348
+REQUEST		Post Api to create student	1730779962302	1730779963500	OK	 
+USER	Advanced custom feeder test	END	1730779963501
+REQUEST		Post Api to create student	1730779962302	1730779963510	OK	 
+USER	Advanced custom feeder test	END	1730779963512
+REQUEST		Post Api to create student	1730779962302	1730779963524	OK	 
+USER	Advanced custom feeder test	END	1730779963526
