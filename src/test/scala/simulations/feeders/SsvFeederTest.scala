@@ -9,15 +9,15 @@ import io.gatling.http.protocol.HttpProtocolBuilder
 
 import scala.reflect.internal.NoPhase.{id, name}
 
-class jsonFeederTest extends Simulation {
+class SsvFeederTest extends Simulation {
   val token: String = "Bearer b0dc81605efc0cfcddcf9ea3b511de30983fb76d01e447eba10f09ac24acddcd"
   val httpProtocol: HttpProtocolBuilder = http.baseUrl("https://gorest.co.in/public/v2")
 
-  val jsonFeeder: Feeder[Any] = jsonFile("data/feeder/studentDetails.json").circular()
+  val ssvFeeder: Feeder[Any] = ssv("data/feeder/studentDetails.ssv").circular()
 
   def getSingleStudentDetail(): ChainBuilder = {
     repeat(3){
-      feed(jsonFeeder)
+      feed(ssvFeeder)
         .exec(
           http(s"get single student details for ${id} of the user name ${name}")
             .get("/users/${id}")
@@ -31,7 +31,7 @@ class jsonFeederTest extends Simulation {
     }
   }
 
-   val scn: ScenarioBuilder = scenario("json Feeder Test")
+   val scn: ScenarioBuilder = scenario("SSV Feeder Test")
     .exec(getSingleStudentDetail())
 
    setUp(scn.inject(atOnceUsers(1)))

@@ -1,7 +1,7 @@
 package simulations.feeders
 
 import io.gatling.core.Predef.*
-import io.gatling.core.feeder._
+import io.gatling.core.feeder.Feeder
 import io.gatling.core.scenario.Simulation
 import io.gatling.core.structure.{ChainBuilder, ScenarioBuilder}
 import io.gatling.http.Predef.*
@@ -9,15 +9,15 @@ import io.gatling.http.protocol.HttpProtocolBuilder
 
 import scala.reflect.internal.NoPhase.{id, name}
 
-class customTextFeederTest extends Simulation {
+class JsonFeederTest extends Simulation {
   val token: String = "Bearer b0dc81605efc0cfcddcf9ea3b511de30983fb76d01e447eba10f09ac24acddcd"
   val httpProtocol: HttpProtocolBuilder = http.baseUrl("https://gorest.co.in/public/v2")
 
-  val customText: BatchableFeederBuilder[String] = separatedValues("data/feeder/studentDetails.txt", '#')
+  val jsonFeeder: Feeder[Any] = jsonFile("data/feeder/studentDetails.json").circular()
 
   def getSingleStudentDetail(): ChainBuilder = {
     repeat(3){
-      feed(customText)
+      feed(jsonFeeder)
         .exec(
           http(s"get single student details for ${id} of the user name ${name}")
             .get("/users/${id}")
@@ -31,7 +31,7 @@ class customTextFeederTest extends Simulation {
     }
   }
 
-   val scn: ScenarioBuilder = scenario("Custom Text Feeder Test")
+   val scn: ScenarioBuilder = scenario("json Feeder Test")
     .exec(getSingleStudentDetail())
 
    setUp(scn.inject(atOnceUsers(1)))

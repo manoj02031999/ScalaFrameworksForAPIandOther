@@ -9,23 +9,30 @@ import io.gatling.http.protocol.HttpProtocolBuilder
 
 import scala.reflect.internal.NoPhase.{id, name}
 
-class indexSequenceFeederTest extends Simulation {
+class ArrayFeederTest extends Simulation {
   val token: String = "Bearer b0dc81605efc0cfcddcf9ea3b511de30983fb76d01e447eba10f09ac24acddcd"
   val httpProtocol: HttpProtocolBuilder = http.baseUrl("https://gorest.co.in/public/v2")
 
-
-  
-  // Way 2
-  val indexSequenceFeeder: Feeder[Any] = IndexedSeq(
+  // way 1
+  val arrayFeeder: Feeder[Any] = array2FeederBuilder(Array(
     Map("id" -> 7503121, "name" -> "Dr. Chakor Varrier"),
     Map("id" -> 7503120, "name" -> "Rohana Bhattacharya"),
     Map("id" -> 7503118, "name" -> "Adripathi Tagore"),
     Map("id" -> 7503117, "name" -> "Sweta Gowda"),
     Map("id" -> 7503116, "name" -> "Sheela Varman")
-  ).circular()
+  )).circular()
+
+  // Way 2
+ /* val arrayFeeder: Feeder[Any] = Array(
+    Map("id" -> 7484334, "name" -> "Arnesh Panicker"),
+    Map("id" -> 7484327, "name" -> "Prof. Sunita Ahluwalia"),
+    Map("id" -> 7484326, "name" -> "Mohana Talwar"),
+    Map("id" -> 7484325, "name" -> "Mr. Shashi Arora"),
+    Map("id" -> 7483662, "name" -> "Aanjaneya Devar")
+  ).circular()*/
   def getSingleStudentDetail(): ChainBuilder = {
     repeat(3){
-      feed(indexSequenceFeeder)
+      feed(arrayFeeder)
         .exec(
           http(s"get single student details for ${id} of the user name ${name}")
             .get("/users/${id}")
@@ -39,7 +46,7 @@ class indexSequenceFeederTest extends Simulation {
     }
   }
 
-   val scn: ScenarioBuilder = scenario("Index Sequence Feeder Test")
+   val scn: ScenarioBuilder = scenario("Array Feeder Test")
     .exec(getSingleStudentDetail())
 
    setUp(scn.inject(atOnceUsers(1)))
