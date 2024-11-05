@@ -1,0 +1,6 @@
+RUN	simulations.feeders.CustomFeederTest	customfeedertest	1730769740196	 	3.6.1
+USER	Custom Feeder Test	START	1730769740952
+REQUEST		get single student details for 0 of the user name <no phase>	1730769740991	1730769741227	OK	 
+REQUEST		get single student details for 0 of the user name <no phase>	1730769741278	1730769741455	OK	 
+REQUEST		get single student details for 0 of the user name <no phase>	1730769741458	1730769741608	OK	 
+USER	Custom Feeder Test	END	1730769741611
