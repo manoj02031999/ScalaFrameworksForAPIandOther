@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.injection.ThrorttleTest",
+  "simulationId": "throrttletest",
+  "start": 1730875148687,
+  "description": "",
+  "scenarios": ["Get Single user Scenario"],
+  "assertions": [
+
+  ]
+}
