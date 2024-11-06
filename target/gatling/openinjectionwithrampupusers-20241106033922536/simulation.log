@@ -1,0 +1,46 @@
+RUN	simulations.injection.OpenInjectionWithRampUpUsers	openinjectionwithrampupusers	1730864362536	 	3.6.1
+USER	Get Single user Scenario	START	1730864368644
+USER	Get Single user Scenario	START	1730864368643
+USER	Get Single user Scenario	START	1730864368642
+USER	Get Single user Scenario	START	1730864368642
+USER	Get Single user Scenario	START	1730864368642
+USER	Get Single user Scenario	START	1730864368642
+REQUEST		GET API for fetching single user data	1730864368673	1730864368778	OK	 
+REQUEST		GET API for fetching single user data	1730864368673	1730864368770	OK	 
+REQUEST		GET API for fetching single user data	1730864368673	1730864368770	OK	 
+REQUEST		GET API for fetching single user data	1730864368673	1730864368770	OK	 
+REQUEST		GET API for fetching single user data	1730864368673	1730864368770	OK	 
+REQUEST		GET API for fetching single user data	1730864368673	1730864368770	OK	 
+USER	Get Single user Scenario	END	1730864368809
+USER	Get Single user Scenario	END	1730864368809
+USER	Get Single user Scenario	END	1730864368809
+USER	Get Single user Scenario	END	1730864368809
+USER	Get Single user Scenario	END	1730864368809
+USER	Get Single user Scenario	END	1730864368809
+USER	Get Single user Scenario	START	1730864369633
+REQUEST		GET API for fetching single user data	1730864369633	1730864369725	OK	 
+USER	Get Single user Scenario	END	1730864369727
+USER	Get Single user Scenario	START	1730864370628
+REQUEST		GET API for fetching single user data	1730864370629	1730864370718	OK	 
+USER	Get Single user Scenario	END	1730864370720
+USER	Get Single user Scenario	START	1730864371641
+REQUEST		GET API for fetching single user data	1730864371641	1730864371709	OK	 
+USER	Get Single user Scenario	END	1730864371713
+USER	Get Single user Scenario	START	1730864372624
+REQUEST		GET API for fetching single user data	1730864372624	1730864372714	OK	 
+USER	Get Single user Scenario	END	1730864372716
+USER	Get Single user Scenario	START	1730864373617
+REQUEST		GET API for fetching single user data	1730864373617	1730864373699	OK	 
+USER	Get Single user Scenario	END	1730864373700
+USER	Get Single user Scenario	START	1730864374615
+REQUEST		GET API for fetching single user data	1730864374615	1730864374689	OK	 
+USER	Get Single user Scenario	END	1730864374691
+USER	Get Single user Scenario	START	1730864375627
+REQUEST		GET API for fetching single user data	1730864375627	1730864375715	OK	 
+USER	Get Single user Scenario	END	1730864375716
+USER	Get Single user Scenario	START	1730864376626
+REQUEST		GET API for fetching single user data	1730864376626	1730864376704	OK	 
+USER	Get Single user Scenario	END	1730864376705
+USER	Get Single user Scenario	START	1730864377617
+REQUEST		GET API for fetching single user data	1730864377618	1730864377689	OK	 
+USER	Get Single user Scenario	END	1730864377691

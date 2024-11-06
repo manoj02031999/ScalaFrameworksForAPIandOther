@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.injection.OpenInjectionWithRampUpUsers",
+  "simulationId": "openinjectionwithrampupusers",
+  "start": 1730864362536,
+  "description": "",
+  "scenarios": ["Get Single user Scenario"],
+  "assertions": [
+
+  ]
+}
