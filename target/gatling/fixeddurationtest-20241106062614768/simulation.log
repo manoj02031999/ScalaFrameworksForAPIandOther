@@ -1,0 +1,29 @@
+RUN	simulations.injection.FixedDurationTest	fixeddurationtest	1730874374768	 	3.6.1
+USER	Get Single user Scenario	START	1730874375584
+REQUEST		GET API for fetching single user data	1730874375600	1730874375709	OK	 
+USER	Get Single user Scenario	END	1730874375738
+USER	Get Single user Scenario	START	1730874376578
+REQUEST		GET API for fetching single user data	1730874376578	1730874376657	OK	 
+USER	Get Single user Scenario	END	1730874376659
+USER	Get Single user Scenario	START	1730874377583
+REQUEST		GET API for fetching single user data	1730874377584	1730874377672	OK	 
+USER	Get Single user Scenario	END	1730874377673
+USER	Get Single user Scenario	START	1730874378575
+REQUEST		GET API for fetching single user data	1730874378576	1730874378689	OK	 
+USER	Get Single user Scenario	END	1730874378690
+USER	Get Single user Scenario	START	1730874379580
+REQUEST		GET API for fetching single user data	1730874379581	1730874379657	OK	 
+USER	Get Single user Scenario	END	1730874379659
+USER	Get Single user Scenario	START	1730874381586
+REQUEST		GET API for fetching single user data	1730874381586	1730874381692	OK	 
+USER	Get Single user Scenario	END	1730874381694
+USER	Get Single user Scenario	START	1730874382572
+REQUEST		GET API for fetching single user data	1730874382572	1730874382653	OK	 
+USER	Get Single user Scenario	END	1730874382654
+USER	Get Single user Scenario	START	1730874383593
+REQUEST		GET API for fetching single user data	1730874383593	1730874383684	OK	 
+USER	Get Single user Scenario	END	1730874383685
+USER	Get Single user Scenario	START	1730874384581
+REQUEST		GET API for fetching single user data	1730874384581	1730874384697	OK	 
+USER	Get Single user Scenario	END	1730874384698
+USER	Get Single user Scenario	START	1730874385579
