@@ -1,0 +1,16 @@
+RUN	simulations.feeders.AdvanceCustomFeederTestWithTemplateJson	advancecustomfeedertestwithtemplatejson	1730780576287	 	3.6.1
+USER	Advanced custom feeder test	START	1730780577021
+USER	Advanced custom feeder test	START	1730780577021
+USER	Advanced custom feeder test	START	1730780577021
+USER	Advanced custom feeder test	START	1730780577021
+USER	Advanced custom feeder test	START	1730780577021
+REQUEST		Post Api to create student	1730780577179	1730780577882	KO	status.find.is(201), but actually found 422
+USER	Advanced custom feeder test	END	1730780577911
+REQUEST		Post Api to create student	1730780577179	1730780578208	KO	status.find.is(201), but actually found 422
+REQUEST		Post Api to create student	1730780577179	1730780578208	KO	status.find.is(201), but actually found 422
+USER	Advanced custom feeder test	END	1730780578210
+USER	Advanced custom feeder test	END	1730780578210
+REQUEST		Post Api to create student	1730780577179	1730780578395	KO	status.find.is(201), but actually found 422
+USER	Advanced custom feeder test	END	1730780578397
+REQUEST		Post Api to create student	1730780577179	1730780578410	KO	status.find.is(201), but actually found 422
+USER	Advanced custom feeder test	END	1730780578411

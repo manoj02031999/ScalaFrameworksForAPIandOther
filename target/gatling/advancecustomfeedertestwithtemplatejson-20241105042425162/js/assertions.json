@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.feeders.AdvanceCustomFeederTestWithTemplateJson",
+  "simulationId": "advancecustomfeedertestwithtemplatejson",
+  "start": 1730780665162,
+  "description": "",
+  "scenarios": ["Advanced custom feeder test"],
+  "assertions": [
+
+  ]
+}

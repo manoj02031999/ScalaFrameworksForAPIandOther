@@ -1,0 +1,16 @@
+RUN	simulations.feeders.AdvanceCustomFeederTestWithTemplateJson	advancecustomfeedertestwithtemplatejson	1730780665162	 	3.6.1
+USER	Advanced custom feeder test	START	1730780665788
+USER	Advanced custom feeder test	START	1730780665788
+USER	Advanced custom feeder test	START	1730780665788
+USER	Advanced custom feeder test	START	1730780665788
+USER	Advanced custom feeder test	START	1730780665788
+REQUEST		Post Api to create student	1730780665968	1730780666652	OK	 
+USER	Advanced custom feeder test	END	1730780666688
+REQUEST		Post Api to create student	1730780665968	1730780666705	OK	 
+USER	Advanced custom feeder test	END	1730780666706
+REQUEST		Post Api to create student	1730780665968	1730780667005	OK	 
+REQUEST		Post Api to create student	1730780665969	1730780667005	OK	 
+USER	Advanced custom feeder test	END	1730780667007
+USER	Advanced custom feeder test	END	1730780667007
+REQUEST		Post Api to create student	1730780665968	1730780667084	OK	 
+USER	Advanced custom feeder test	END	1730780667086
