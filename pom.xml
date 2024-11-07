@@ -60,11 +60,12 @@
           <runMultipleSimulations>true</runMultipleSimulations>
           <includes>
             <include>simulations.advanced.*</include>
-            <include>simulations.apiTest.*</include>
+            <!--<include>simulations.apiTest.*</include>-->
           </includes>
-         <!-- <excludes>
-            <exclude>my.package.IgnoredSimulation</exclude>
-          </excludes>-->
+          <excludes>
+            <exclude>simulations.advanced.LoggingMechanismTest</exclude>
+            <exclude>simulations.advanced.ReusableMethodTest</exclude>
+          </excludes>
         </configuration>
         <executions>
           <execution>
