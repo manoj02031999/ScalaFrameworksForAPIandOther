@@ -1,6 +1,0 @@
-RUN	simulations.feeders.ssvFeederTest	ssvfeedertest	1729818748387	 	3.6.1
-USER	SSV Feeder Test	START	1729818749305
-REQUEST		get single student details for 0 of the user name <no phase>	1729818749382	1729818749647	OK	 
-REQUEST		get single student details for 0 of the user name <no phase>	1729818749708	1729818749858	OK	 
-REQUEST		get single student details for 0 of the user name <no phase>	1729818749860	1729818749956	OK	 
-USER	SSV Feeder Test	END	1729818749962

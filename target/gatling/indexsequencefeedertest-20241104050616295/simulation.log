@@ -1,6 +1,0 @@
-RUN	simulations.feeders.indexSequenceFeederTest	indexsequencefeedertest	1730696776295	 	3.6.1
-USER	Index Sequence Feeder Test	START	1730696777517
-REQUEST		get single student details for 0 of the user name <no phase>	1730696777558	1730696779272	KO	status.find.is(200), but actually found 404
-REQUEST		get single student details for 0 of the user name <no phase>	1730696779321	1730696780156	KO	status.find.is(200), but actually found 404
-REQUEST		get single student details for 0 of the user name <no phase>	1730696780159	1730696780591	KO	status.find.is(200), but actually found 404
-USER	Index Sequence Feeder Test	END	1730696780594

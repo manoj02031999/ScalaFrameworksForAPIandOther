@@ -1,6 +1,0 @@
-RUN	simulations.feeders.jsonFeederTest	jsonfeedertest	1729819869059	 	3.6.1
-USER	json Feeder Test	START	1729819870059
-REQUEST		get single student details for 0 of the user name <no phase>	1729819870110	1729819870315	OK	 
-REQUEST		get single student details for 0 of the user name <no phase>	1729819870366	1729819870649	OK	 
-REQUEST		get single student details for 0 of the user name <no phase>	1729819870653	1729819871040	OK	 
-USER	json Feeder Test	END	1729819871045

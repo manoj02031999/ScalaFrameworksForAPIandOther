@@ -1,12 +1,12 @@
 package simulations.basics
 
-import io.gatling.core.Predef.*
+import io.gatling.core.Predef._
 import io.gatling.core.scenario.Simulation
 import io.gatling.core.structure.ScenarioBuilder
-import io.gatling.http.Predef.*
+import io.gatling.http.Predef._
 import io.gatling.http.protocol.HttpProtocolBuilder
 
-import scala.concurrent.duration.*
+import scala.concurrent.duration._
 import scala.language.postfixOps
 
 class AddPauseTest extends Simulation {

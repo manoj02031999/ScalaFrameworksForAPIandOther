@@ -1,5 +1,0 @@
-RUN	simulations.advanced.AuthenticationTest	authenticationtest	1729734319845	 	3.6.1
-USER	Get all students details	START	1729734320720
-REQUEST		get all students details	1729734320741	1729734321088	OK	 
-REQUEST		get single student details	1729734323165	1729734323437	KO	jsonPath($.id).find.is(7484342), but actually found nothing
-USER	Get all students details	END	1729734323444

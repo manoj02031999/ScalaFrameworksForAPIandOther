@@ -1,6 +1,0 @@
-RUN	simulations.feeders.csvFeederTest	csvfeedertest	1729818253038	 	3.6.1
-USER	CSV Feeder Test	START	1729818254382
-REQUEST		get single student details	1729818254439	1729818254742	KO	Check validator resolution crashed: No attribute named 'studentId' is defined
-REQUEST		get single student details	1729818254773	1729818254943	KO	Check validator resolution crashed: No attribute named 'studentId' is defined
-REQUEST		get single student details	1729818254945	1729818255147	KO	Check validator resolution crashed: No attribute named 'studentId' is defined
-USER	CSV Feeder Test	END	1729818255153
