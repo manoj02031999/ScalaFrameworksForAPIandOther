@@ -76,6 +76,18 @@
               <goal>compile</goal> <!-- Compile Scala source code -->
               <goal>testCompile</goal> <!-- Compile Scala test code -->
             </goals>
+            <configuration>
+              <jvmArgs>
+                <jvmArg>-Xss100M</jvmArg>
+              </jvmArgs>
+              <args>
+                <arg>-deprecation</arg>
+                <arg>-feature</arg>
+                <arg>-unchecked</arg>
+                <arg>language:implicitConversions</arg>
+                <arg>-language:postfixOps</arg>
+              </args>
+            </configuration>
           </execution>
         </executions>
       </plugin>
