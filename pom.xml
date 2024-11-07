@@ -56,6 +56,16 @@
         <groupId>io.gatling</groupId>
         <artifactId>gatling-maven-plugin</artifactId>
         <version>${gatling-maven-plugin.version}</version>
+        <configuration>
+          <runMultipleSimulations>true</runMultipleSimulations>
+          <includes>
+            <include>simulations.advanced.AuthenticationTest</include>
+            <include>simulations.advanced.BaseTestImplementationTest</include>
+          </includes>
+         <!-- <excludes>
+            <exclude>my.package.IgnoredSimulation</exclude>
+          </excludes>-->
+        </configuration>
         <executions>
           <execution>
             <goals>
