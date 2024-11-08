@@ -59,12 +59,12 @@
         <configuration>
           <runMultipleSimulations>true</runMultipleSimulations>
           <includes>
-            <include>simulations.advanced.*</include>
+            <!--<include>simulations.*</include>-->
             <!--<include>simulations.apiTest.*</include>-->
           </includes>
           <excludes>
-            <exclude>simulations.advanced.LoggingMechanismTest</exclude>
-            <exclude>simulations.advanced.ReusableMethodTest</exclude>
+           <!-- <exclude>simulations.utils.*</exclude>-->
+            <!--<exclude>simulations.advanced.ReusableMethodTest</exclude>-->
           </excludes>
         </configuration>
         <executions>
