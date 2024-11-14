@@ -66,6 +66,7 @@
            <!-- <exclude>simulations.utils.*</exclude>-->
             <!--<exclude>simulations.advanced.ReusableMethodTest</exclude>-->
           </excludes>
+          <apiToken>O1wEJZQXDbo5.hw6roS0J46pNIArNhcogBTNFTa_TrUSZeEd7DW6e4SmNDIdcgGtq</apiToken>
         </configuration>
         <executions>
           <execution>
