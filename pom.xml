@@ -67,6 +67,11 @@
             <!--<exclude>simulations.advanced.ReusableMethodTest</exclude>-->
           </excludes>
           <apiToken>O1wEJZQXDbo5.hw6roS0J46pNIArNhcogBTNFTa_TrUSZeEd7DW6e4SmNDIdcgGtq</apiToken>
+          <simulationId>ecc4cd54-4bc4-4014-bca2-3e90a8f0f498</simulationId>
+          <packageId>5d055a69-a7d1-4948-aa7c-b5a17a5f339e</packageId>
+          <teamId>77d26448-3b20-4f7e-af26-e209e515eba5</teamId>
+          <simulationClass>simulations.apiTest.ReqResAllCrud</simulationClass>
+          <waitForRunEnd>true</waitForRunEnd>
         </configuration>
         <executions>
           <execution>
